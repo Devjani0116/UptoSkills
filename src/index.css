@@ -1,0 +1,285 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* RegistrationForm.css */
+/* RegistrationForm.css */
+
+body{
+  background-color:  #030714;
+}
+/* .hackathon-details {
+  @apply w-1/3 p-6 bg-white border border-gray-300 rounded-lg shadow-lg mr-6; /* Tailwind utility classes */
+  .main-container {
+    display: flex;
+    justify-content: space-between; /* Display side by side */
+    align-items: flex-start;
+    padding: 20px; /* Adjust padding as needed */
+  }
+  
+  .hackathon-details-section {
+    flex: 1; /* Take up remaining space */
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #ccc;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 20px; /* Adjust margin between sections */
+    
+  }
+  
+  /* .hackathon-details-section {
+    flex: 1; 
+    max-width: 700px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #ccc;
+    margin-right: 20px;
+  } */
+
+  .hackathon-details h2 {
+    margin-bottom: 10px;
+  }
+  
+  .hackathon-details p {
+    margin: 5px 0;
+  }
+
+  .hackathon-icon {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+  }  
+/* .registration-form {
+  flex: 1; 
+  max-width: 700px;
+  margin: 20px auto; 
+  margin-left: 900px;/* Added margin to center vertically */
+  /*padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);} */
+  .registration-form {
+    flex: 1; /* Take up remaining space */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+.registration-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hackathon-icon {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.registration-form h2 {
+  text-align: center;
+ 
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+  width: calc(100% - 20px); /* Adjusted width calculation */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+button {
+  padding: 10px 20px; /* Adjusted padding */
+  border: none;
+  border-radius: 3px;
+  background-color: #0e0663;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button[type="button"] {
+  width: auto;
+  margin-right: 5px;
+}
+
+.add-button {
+  display: flex;
+  background-color: #28a745;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+.add-button .icon {
+  margin-right: 7px; /* Add margin to separate the icon from text */
+}
+.add-button:hover {
+  background-color: #218838;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.input-with-icon {
+  position: relative;
+}
+
+.input-with-icon input[type="text"] {
+  width: 400px; /* Adjust the width as needed */
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.input-with-icon .edit-icon {
+  position: absolute;
+  top: 50%;
+  right: 5px; /* Adjust as necessary */
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #777; /* Adjust icon color */
+}
+
+.input-with-icon .edit-icon:hover {
+  color: #333; /* Adjust hover color */
+}
+.edit-icon {
+  margin-left: 10px;
+  cursor: pointer;
+  color: #007bff;
+}
+
+.edit-icon:hover {
+  color: #0056b3;
+}
+
+
+.teammates-label {
+  display: flex;
+ 
+}
+
+.users {
+  width: 20px; /* Adjust size as needed */
+  height: auto;
+  margin-right: 7px;
+  
+}
+.teammate-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; 
+ 
+}
+
+.teammate-row input {
+  flex: 1;
+  padding: 8px;
+  margin-right: 10px; /* Add some spacing between input and actions */
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
+.teammate-actions {
+  display: flex;
+  align-items: center;
+}
+
+.remove-button {
+  margin-left: 10px;
+  padding: 8px 12px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.remove-button:hover {
+  background-color: #c82333;
+}
+
+.form-group select {
+  height: auto;
+}
+
+/* navabr.css*/
+.navbar {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #859acf;
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .hackathon-info {
+    flex: 1;
+    text-align: left;
+    color: #dddddd;
+  }
+  
+  .hackathon-name {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .institution-name {
+    font-size: 14px;
+    color: #f6f3f3;
+  }
+  
+  .progress-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 4px;
+    width: 0;
+    background-color: blue; /* Default color */
+    transition: width 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  }
+  
