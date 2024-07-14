@@ -1,11 +1,11 @@
 import React, { useRef, useState } from 'react';
 import { FaEdit, FaPlus } from 'react-icons/fa'; // Assuming FaPlus is used for the "+" sign
 import { Link } from 'react-router-dom';
+import img from "../assets/img.jpg";
+import users from '../assets/users.svg';
 import HackathonDetails from './HackathonDetails';
-import Navbar from './Navbar';
-import img from './img.jpg';
 import './index.css';
-import users from './users.svg';
+import Navbar from './Navbar';
 const colleges = [
   'St. Xavier\'s College',
   'Sophia College for Women',
